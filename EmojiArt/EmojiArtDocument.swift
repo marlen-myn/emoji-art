@@ -3,7 +3,7 @@
 //  EmojiArt
 //
 //  Created by Marlen Mynzhassar on 9/27/20.
-//
+//  All rights reserved
 
 import SwiftUI
 
