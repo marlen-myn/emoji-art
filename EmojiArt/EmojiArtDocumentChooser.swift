@@ -13,7 +13,7 @@ struct EmojiArtDocumentChooser: View {
     @State private var editMode: EditMode = .inactive
     
     var body: some View {
-        NavigationView{
+        NavigationView {
             List {
                 ForEach(store.documents) { document in
                     NavigationLink(destination: EmojiArtDocumentView(document: document)
